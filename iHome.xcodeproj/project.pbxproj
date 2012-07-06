@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E41C87D4159C495F0017326B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41C87D3159C495F0017326B /* ThirdViewController.m */; };
+		E41D438E15A68A9200DE93B2 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D438D15A68A9200DE93B2 /* FaceView.m */; };
 		E4438AC9159F5A9A00092395 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4438AC8159F5A9A00092395 /* MyTableViewController.m */; };
 		E4438AD0159F665300092395 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4438ACF159F665300092395 /* DetailViewController.m */; };
 		E44D9FB715A3E19800DE2BA5 /* iHome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E44D9FB615A3E19800DE2BA5 /* iHome@2x.png */; };
@@ -54,6 +55,8 @@
 /* Begin PBXFileReference section */
 		E41C87D2159C495F0017326B /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		E41C87D3159C495F0017326B /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		E41D438C15A68A9200DE93B2 /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		E41D438D15A68A9200DE93B2 /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 		E4438AC7159F5A9A00092395 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
 		E4438AC8159F5A9A00092395 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		E4438ACE159F665300092395 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
@@ -163,6 +166,7 @@
 		E455E5E2159B4C0A006F10D5 /* iHome */ = {
 			isa = PBXGroup;
 			children = (
+				E4AD511715A5E5BC005E2BB8 /* view */,
 				E4DAB18715A07D67000AEC07 /* controller */,
 				E462DF3B15A0443400633E93 /* model */,
 				E455E5EB159B4C0A006F10D5 /* AppDelegate.h */,
@@ -231,6 +235,15 @@
 			);
 			name = model;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		E4AD511715A5E5BC005E2BB8 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E41D438C15A68A9200DE93B2 /* FaceView.h */,
+				E41D438D15A68A9200DE93B2 /* FaceView.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		E4DAB18715A07D67000AEC07 /* controller */ = {
@@ -383,6 +396,7 @@
 				E462DF3F15A0446200633E93 /* Todos.m in Sources */,
 				E4DAB18515A07215000AEC07 /* TodosDB.m in Sources */,
 				E4DAB19015A0837A000AEC07 /* AddTodosViewController.m in Sources */,
+				E41D438E15A68A9200DE93B2 /* FaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

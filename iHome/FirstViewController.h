@@ -15,4 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *labelName;
 - (NSString *)sayHello:(NSString *) name;
 
+
+@property (nonatomic) int happiness;  //0 is sad, 100 is very very happy
+
 @end
