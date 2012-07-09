@@ -9,7 +9,7 @@
 #import "SecondViewController.h"
 
 @implementation SecondViewController
-@synthesize webWindow;
+//@synthesize webWindow;
 
 - (void)didReceiveMemoryWarning
 {
@@ -23,17 +23,17 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    self.webWindow=[[UIWebView alloc] initWithFrame:self.view.bounds];
-    [self.view addSubview:self.webWindow];
+//    self.webWindow=[[UIWebView alloc] initWithFrame:self.view.bounds];
+//    [self.view addSubview:self.webWindow];
     //NSURL *url = [NSURL URLWithString:@"http://m.mop.com"];
     //NSURLRequest *request = [[NSURLRequest alloc]initWithURL:url];
     //[self.webWindow loadRequest:request];
-    [self.webWindow loadHTMLString:@"<red>hello</red> test" baseURL:nil];
+//    [self.webWindow loadHTMLString:@"<red>hello</red> test" baseURL:nil];
 }
 
 - (void)viewDidUnload
 {
-    [self setWebWindow:nil];
+//    [self setWebWindow:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

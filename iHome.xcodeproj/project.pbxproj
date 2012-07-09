@@ -36,6 +36,8 @@
 		E455E616159B4C0A006F10D5 /* iHomeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E455E615159B4C0A006F10D5 /* iHomeTests.m */; };
 		E45AC723159C04CF00812C52 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = E45AC722159C04CF00812C52 /* Car.m */; };
 		E462DF3F15A0446200633E93 /* Todos.m in Sources */ = {isa = PBXBuildFile; fileRef = E462DF3E15A0446200633E93 /* Todos.m */; };
+		E472E69015AB04EB0087EA53 /* WebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E472E68F15AB04EB0087EA53 /* WebPageViewController.m */; };
+		E472E69415AB05040087EA53 /* HTMLPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E472E69315AB05040087EA53 /* HTMLPageViewController.m */; };
 		E4B1DCC815A0461A000271D1 /* todos.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = E4B1DCC715A0461A000271D1 /* todos.sqlite3 */; };
 		E4B1DCCE15A047EC000271D1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B1DCCD15A047EC000271D1 /* libsqlite3.dylib */; };
 		E4DAB18515A07215000AEC07 /* TodosDB.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAB18415A07215000AEC07 /* TodosDB.m */; };
@@ -95,6 +97,10 @@
 		E45AC722159C04CF00812C52 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 		E462DF3D15A0446200633E93 /* Todos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todos.h; sourceTree = "<group>"; };
 		E462DF3E15A0446200633E93 /* Todos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todos.m; sourceTree = "<group>"; };
+		E472E68E15AB04EB0087EA53 /* WebPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebPageViewController.h; sourceTree = "<group>"; };
+		E472E68F15AB04EB0087EA53 /* WebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPageViewController.m; sourceTree = "<group>"; };
+		E472E69215AB05040087EA53 /* HTMLPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLPageViewController.h; sourceTree = "<group>"; };
+		E472E69315AB05040087EA53 /* HTMLPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLPageViewController.m; sourceTree = "<group>"; };
 		E4B1DCC715A0461A000271D1 /* todos.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = todos.sqlite3; sourceTree = "<group>"; };
 		E4B1DCCD15A047EC000271D1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		E4DAB18315A07215000AEC07 /* TodosDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodosDB.h; sourceTree = "<group>"; };
@@ -251,6 +257,10 @@
 			children = (
 				E4DAB18E15A0837A000AEC07 /* AddTodosViewController.h */,
 				E4DAB18F15A0837A000AEC07 /* AddTodosViewController.m */,
+				E472E68E15AB04EB0087EA53 /* WebPageViewController.h */,
+				E472E68F15AB04EB0087EA53 /* WebPageViewController.m */,
+				E472E69215AB05040087EA53 /* HTMLPageViewController.h */,
+				E472E69315AB05040087EA53 /* HTMLPageViewController.m */,
 			);
 			name = controller;
 			sourceTree = "<group>";
@@ -397,6 +407,8 @@
 				E4DAB18515A07215000AEC07 /* TodosDB.m in Sources */,
 				E4DAB19015A0837A000AEC07 /* AddTodosViewController.m in Sources */,
 				E41D438E15A68A9200DE93B2 /* FaceView.m in Sources */,
+				E472E69015AB04EB0087EA53 /* WebPageViewController.m in Sources */,
+				E472E69415AB05040087EA53 /* HTMLPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
