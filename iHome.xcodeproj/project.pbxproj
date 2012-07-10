@@ -11,6 +11,7 @@
 		E41D438E15A68A9200DE93B2 /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = E41D438D15A68A9200DE93B2 /* FaceView.m */; };
 		E4438AC9159F5A9A00092395 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4438AC8159F5A9A00092395 /* MyTableViewController.m */; };
 		E4438AD0159F665300092395 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4438ACF159F665300092395 /* DetailViewController.m */; };
+		E44AA54215ABF5C500E5C63F /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E44AA54015ABF5C500E5C63F /* MainStoryboard_iPad.storyboard */; };
 		E44D9FB715A3E19800DE2BA5 /* iHome@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E44D9FB615A3E19800DE2BA5 /* iHome@2x.png */; };
 		E44D9FB915A3E19C00DE2BA5 /* iHome.png in Resources */ = {isa = PBXBuildFile; fileRef = E44D9FB815A3E19C00DE2BA5 /* iHome.png */; };
 		E44D9FBB15A3E2EF00DE2BA5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E44D9FBA15A3E2EF00DE2BA5 /* Default.png */; };
@@ -37,7 +38,6 @@
 		E462DF3F15A0446200633E93 /* Todos.m in Sources */ = {isa = PBXBuildFile; fileRef = E462DF3E15A0446200633E93 /* Todos.m */; };
 		E472E69015AB04EB0087EA53 /* WebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E472E68F15AB04EB0087EA53 /* WebPageViewController.m */; };
 		E472E69415AB05040087EA53 /* HTMLPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E472E69315AB05040087EA53 /* HTMLPageViewController.m */; };
-		E472E69615ABF1EB0087EA53 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E472E69515ABF1EB0087EA53 /* MainStoryboard_iPad.storyboard */; };
 		E4B1DCC815A0461A000271D1 /* todos.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = E4B1DCC715A0461A000271D1 /* todos.sqlite3 */; };
 		E4B1DCCE15A047EC000271D1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B1DCCD15A047EC000271D1 /* libsqlite3.dylib */; };
 		E4DAB18515A07215000AEC07 /* TodosDB.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAB18415A07215000AEC07 /* TodosDB.m */; };
@@ -63,6 +63,7 @@
 		E4438AC8159F5A9A00092395 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 		E4438ACE159F665300092395 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		E4438ACF159F665300092395 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		E44AA54115ABF5C500E5C63F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E44D9FB615A3E19800DE2BA5 /* iHome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iHome@2x.png"; sourceTree = "<group>"; };
 		E44D9FB815A3E19C00DE2BA5 /* iHome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iHome.png; sourceTree = "<group>"; };
 		E44D9FBA15A3E2EF00DE2BA5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -100,7 +101,6 @@
 		E472E68F15AB04EB0087EA53 /* WebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPageViewController.m; sourceTree = "<group>"; };
 		E472E69215AB05040087EA53 /* HTMLPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLPageViewController.h; sourceTree = "<group>"; };
 		E472E69315AB05040087EA53 /* HTMLPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLPageViewController.m; sourceTree = "<group>"; };
-		E472E69515ABF1EB0087EA53 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPad.storyboard; path = ../MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E4B1DCC715A0461A000271D1 /* todos.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = todos.sqlite3; sourceTree = "<group>"; };
 		E4B1DCCD15A047EC000271D1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		E4DAB18315A07215000AEC07 /* TodosDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodosDB.h; sourceTree = "<group>"; };
@@ -179,7 +179,7 @@
 				E455E5EC159B4C0A006F10D5 /* AppDelegate.m */,
 				E45AC721159C04CF00812C52 /* Car.h */,
 				E45AC722159C04CF00812C52 /* Car.m */,
-				E472E69515ABF1EB0087EA53 /* MainStoryboard_iPad.storyboard */,
+				E44AA54015ABF5C500E5C63F /* MainStoryboard_iPad.storyboard */,
 				E455E5EE159B4C0A006F10D5 /* MainStoryboard_iPhone.storyboard */,
 				E455E5F4159B4C0A006F10D5 /* FirstViewController.h */,
 				E455E5F5159B4C0A006F10D5 /* FirstViewController.m */,
@@ -347,7 +347,7 @@
 				E44D9FB915A3E19C00DE2BA5 /* iHome.png in Resources */,
 				E44D9FBB15A3E2EF00DE2BA5 /* Default.png in Resources */,
 				E44D9FBD15A3E2F500DE2BA5 /* Default@2x.png in Resources */,
-				E472E69615ABF1EB0087EA53 /* MainStoryboard_iPad.storyboard in Resources */,
+				E44AA54215ABF5C500E5C63F /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +431,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		E44AA54015ABF5C500E5C63F /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E44AA54115ABF5C500E5C63F /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
 		E455E5E5159B4C0A006F10D5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
