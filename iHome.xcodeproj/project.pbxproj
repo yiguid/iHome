@@ -22,7 +22,6 @@
 		E455E5E9159B4C0A006F10D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E455E5E8159B4C0A006F10D5 /* main.m */; };
 		E455E5ED159B4C0A006F10D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E455E5EC159B4C0A006F10D5 /* AppDelegate.m */; };
 		E455E5F0159B4C0A006F10D5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E455E5EE159B4C0A006F10D5 /* MainStoryboard_iPhone.storyboard */; };
-		E455E5F3159B4C0A006F10D5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E455E5F1159B4C0A006F10D5 /* MainStoryboard_iPad.storyboard */; };
 		E455E5F6159B4C0A006F10D5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E455E5F5159B4C0A006F10D5 /* FirstViewController.m */; };
 		E455E5F8159B4C0A006F10D5 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = E455E5F7159B4C0A006F10D5 /* first.png */; };
 		E455E5FA159B4C0A006F10D5 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E455E5F9159B4C0A006F10D5 /* first@2x.png */; };
@@ -38,6 +37,7 @@
 		E462DF3F15A0446200633E93 /* Todos.m in Sources */ = {isa = PBXBuildFile; fileRef = E462DF3E15A0446200633E93 /* Todos.m */; };
 		E472E69015AB04EB0087EA53 /* WebPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E472E68F15AB04EB0087EA53 /* WebPageViewController.m */; };
 		E472E69415AB05040087EA53 /* HTMLPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E472E69315AB05040087EA53 /* HTMLPageViewController.m */; };
+		E472E69615ABF1EB0087EA53 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E472E69515ABF1EB0087EA53 /* MainStoryboard_iPad.storyboard */; };
 		E4B1DCC815A0461A000271D1 /* todos.sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = E4B1DCC715A0461A000271D1 /* todos.sqlite3 */; };
 		E4B1DCCE15A047EC000271D1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B1DCCD15A047EC000271D1 /* libsqlite3.dylib */; };
 		E4DAB18515A07215000AEC07 /* TodosDB.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAB18415A07215000AEC07 /* TodosDB.m */; };
@@ -78,7 +78,6 @@
 		E455E5EB159B4C0A006F10D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E455E5EC159B4C0A006F10D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E455E5EF159B4C0A006F10D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		E455E5F2159B4C0A006F10D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E455E5F4159B4C0A006F10D5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		E455E5F5159B4C0A006F10D5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		E455E5F7159B4C0A006F10D5 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
@@ -101,6 +100,7 @@
 		E472E68F15AB04EB0087EA53 /* WebPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebPageViewController.m; sourceTree = "<group>"; };
 		E472E69215AB05040087EA53 /* HTMLPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLPageViewController.h; sourceTree = "<group>"; };
 		E472E69315AB05040087EA53 /* HTMLPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLPageViewController.m; sourceTree = "<group>"; };
+		E472E69515ABF1EB0087EA53 /* MainStoryboard_iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard_iPad.storyboard; path = ../MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		E4B1DCC715A0461A000271D1 /* todos.sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = todos.sqlite3; sourceTree = "<group>"; };
 		E4B1DCCD15A047EC000271D1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		E4DAB18315A07215000AEC07 /* TodosDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodosDB.h; sourceTree = "<group>"; };
@@ -179,8 +179,8 @@
 				E455E5EC159B4C0A006F10D5 /* AppDelegate.m */,
 				E45AC721159C04CF00812C52 /* Car.h */,
 				E45AC722159C04CF00812C52 /* Car.m */,
+				E472E69515ABF1EB0087EA53 /* MainStoryboard_iPad.storyboard */,
 				E455E5EE159B4C0A006F10D5 /* MainStoryboard_iPhone.storyboard */,
-				E455E5F1159B4C0A006F10D5 /* MainStoryboard_iPad.storyboard */,
 				E455E5F4159B4C0A006F10D5 /* FirstViewController.h */,
 				E455E5F5159B4C0A006F10D5 /* FirstViewController.m */,
 				E455E5F7159B4C0A006F10D5 /* first.png */,
@@ -338,7 +338,6 @@
 			files = (
 				E455E5E7159B4C0A006F10D5 /* InfoPlist.strings in Resources */,
 				E455E5F0159B4C0A006F10D5 /* MainStoryboard_iPhone.storyboard in Resources */,
-				E455E5F3159B4C0A006F10D5 /* MainStoryboard_iPad.storyboard in Resources */,
 				E455E5F8159B4C0A006F10D5 /* first.png in Resources */,
 				E455E5FA159B4C0A006F10D5 /* first@2x.png in Resources */,
 				E455E5FF159B4C0A006F10D5 /* second.png in Resources */,
@@ -348,6 +347,7 @@
 				E44D9FB915A3E19C00DE2BA5 /* iHome.png in Resources */,
 				E44D9FBB15A3E2EF00DE2BA5 /* Default.png in Resources */,
 				E44D9FBD15A3E2F500DE2BA5 /* Default@2x.png in Resources */,
+				E472E69615ABF1EB0087EA53 /* MainStoryboard_iPad.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,14 +445,6 @@
 				E455E5EF159B4C0A006F10D5 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		E455E5F1159B4C0A006F10D5 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E455E5F2159B4C0A006F10D5 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		E455E611159B4C0A006F10D5 /* InfoPlist.strings */ = {
